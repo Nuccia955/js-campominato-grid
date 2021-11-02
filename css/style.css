@@ -6,6 +6,11 @@
     font-family: sans-serif;
 }
 
+body {
+    height: 100vh;
+    flex-direction: column;
+}
+
 /* UTILITIES */
 .container {
     width: calc(100% - 30px);
@@ -40,5 +45,25 @@ header .title img {
 
 header button {
     padding: 0 25px;
+}
+
+/* MAIN */
+main {
+    flex-grow: 1;
+    background-color: aquamarine;
+    justify-content: center;
+}
+
+.grid-wrap {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    border: 1px solid black;
+}
+
+/* FOOTER */
+footer {
+    font-size: 0.8rem;
+    padding: 25px 15px;
 }
 
