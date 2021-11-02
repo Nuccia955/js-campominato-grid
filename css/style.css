@@ -52,6 +52,7 @@ main {
     flex-grow: 1;
     background-color: aquamarine;
     justify-content: center;
+    overflow: auto;
 }
 
 .grid-wrap {
@@ -67,6 +68,12 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+
+.bg-blue {
+    background-color: #6495ed;
+    color: white;
 }
 
 /* FOOTER */
